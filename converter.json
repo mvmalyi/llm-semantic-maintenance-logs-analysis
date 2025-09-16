@@ -1,0 +1,168 @@
+
+[
+  {
+    "failure_mode_title": "Q8 breaker malfunctions (open, cannot close, feedback error)",
+    "failure_mode_description": "Frequent trips or command failures of the Q8 breaker due to feedback faults or mechanical/electrical issues cause the converter to disconnect or fail to reclose.",
+    "log_count": 140,
+    "log_percentage": 20.0,
+    "representative_quotes": [
+      "Ocorrência do erro 353 - Q8 Breaker Open",
+      "Paragens com o erro Q8 breaker open.",
+      "Q8 Close not possible"
+    ]
+  },
+  {
+    "failure_mode_title": "Main Switch open (FM300) and mainswitch mechanism faults",
+    "failure_mode_description": "The LV MainSwitch opens or fails to latch/close (often FM300) leading to converter de-energisation and repeated downtime, sometimes due to mechanical issues.",
+    "log_count": 84,
+    "log_percentage": 12.0,
+    "representative_quotes": [
+      "Paragem da turbina com o erro FM300 (LV MainSwitch off)",
+      "Main switch não ligou remotamente após dispara de linha",
+      "Erro no conversor. FM300 - LV MainSwitch off."
+    ]
+  },
+  {
+    "failure_mode_title": "Main Inverter class faults (FM1209/FM1208/FM1201)",
+    "failure_mode_description": "Main Inverter reports Class C/B/A faults indicating internal converter protection trips tied to hardware condition, insulation or thermal/operational thresholds.",
+    "log_count": 77,
+    "log_percentage": 11.0,
+    "representative_quotes": [
+      "Paragem da turbina com o erro FM1209 (MI class C (Service!) Fault)",
+      "Turbina parou com o erro FM1208 (MI class B Fault)",
+      "Paragem com o erro FM1201-MI class A Fault"
+    ]
+  },
+  {
+    "failure_mode_title": "Converter/VCP thermal overload and cooling system issues",
+    "failure_mode_description": "Over-temperature alarms on the VCP/PowerCab/Busbar and cooling system faults or clogged filters trigger converter derating or trips.",
+    "log_count": 70,
+    "log_percentage": 10.0,
+    "representative_quotes": [
+      "Paragens com o erro High temp. VCP Board 59°C",
+      "Paragens com o erro Busbar temp. high.",
+      "Turbina apresenta o erro FM868 (Air Temp PwrCab PwrFld H Warn)."
+    ]
+  },
+  {
+    "failure_mode_title": "Grid/Rotor inverter hardware errors and overcurrent/overvoltage trips",
+    "failure_mode_description": "Hardware errors and protection trips on grid/rotor inverter stages (overcurrent, HW error, OVP) intermittently shut down the converter.",
+    "log_count": 70,
+    "log_percentage": 10.0,
+    "representative_quotes": [
+      "Paragens com o erro Grid inv. HW error L_",
+      "Paragens com o erro Rotor inv. HW error L_",
+      "Paragens com o erro Ext. High cur. Grid inv. L0"
+    ]
+  },
+  {
+    "failure_mode_title": "DC undervoltage / excitation low voltage on converter",
+    "failure_mode_description": "Low DC or excitation voltage conditions on the converter DC link or rotor excitation path cause trips and not-ready states.",
+    "log_count": 42,
+    "log_percentage": 6.0,
+    "representative_quotes": [
+      "Paragens com o erro Ext. low DC voltage.",
+      "DC Undervoltage: V",
+      "Paragens com erro ExEx low voltage L1: 0V"
+    ]
+  },
+  {
+    "failure_mode_title": "Q7 breaker (grid disconnect) trips/errors",
+    "failure_mode_description": "Q7 breaker opens or reports errors, preventing grid connection and causing converter shutdowns.",
+    "log_count": 35,
+    "log_percentage": 5.0,
+    "representative_quotes": [
+      "Paragens com o erro 352 - Q7 breaker open",
+      "Paragens com o erro Error on Q7.",
+      "Q7 breaker open."
+    ]
+  },
+  {
+    "failure_mode_title": "Communication and bus errors (Interbus/IBS, Not Ready states)",
+    "failure_mode_description": "Communication faults (e.g., Interbus FM700) and converter 'not ready' statuses interrupt inverter control and lead to stops.",
+    "log_count": 42,
+    "log_percentage": 6.0,
+    "representative_quotes": [
+      "Turbina parou com FM700 (IBS Interbus Stop).",
+      "Problema de comunicação",
+      "Ocorrência do Status 3000 - Frequency converter not ready"
+    ]
+  },
+  {
+    "failure_mode_title": "Power module/IGBT/SKIIPack failures and blown fuses",
+    "failure_mode_description": "Failures of power modules (SKIIPacks/phase modules) and IGBTs, often accompanied by blown fuses, require hardware replacement and cause trips.",
+    "log_count": 49,
+    "log_percentage": 7.0,
+    "representative_quotes": [
+      "Substituição de skiipacks",
+      "Substituição do IGBT e fusíveis",
+      "Substituição de 1 phase module do MI"
+    ]
+  },
+  {
+    "failure_mode_title": "Safety Chain open (FM50) and related interlocks",
+    "failure_mode_description": "The safety chain is activated (FM50), opening interlocks that prevent converter operation until reset and root cause resolution.",
+    "log_count": 21,
+    "log_percentage": 3.0,
+    "representative_quotes": [
+      "Paragem com o erro FM50-SafetyChain activated",
+      "Insistência do erro FM50 Safety Chain actived",
+      "Rearme local do safety chain na máquina"
+    ]
+  },
+  {
+    "failure_mode_title": "PFC (Power Factor Correction) system and capacitor bank faults",
+    "failure_mode_description": "PFC breaker trips (79) and capacitor bank failures or replacements indicate reactive power circuit issues affecting converter operation.",
+    "log_count": 14,
+    "log_percentage": 2.0,
+    "representative_quotes": [
+      "79-PFC breaker open",
+      "Avaria no Banco de Condensadores",
+      "Replace Capacitors of converter."
+    ]
+  },
+  {
+    "failure_mode_title": "Arc/smoke detection trips (F60) in converter cabinet",
+    "failure_mode_description": "Smoke or arc detection triggers protective opening (F60/Q8) and shuts down the converter for safety.",
+    "log_count": 14,
+    "log_percentage": 2.0,
+    "representative_quotes": [
+      "Smoke detected, Q8/F60 open.",
+      "Paragens com o erro Arc detected, F60 tripped.",
+      "Ocorrência do erro 4230 - Grid disc. smoke warning"
+    ]
+  },
+  {
+    "failure_mode_title": "Asymmetric current/voltage detection",
+    "failure_mode_description": "Protection trips caused by phase asymmetry in current or voltage indicate imbalance or measurement/contact issues in the converter path.",
+    "log_count": 21,
+    "log_percentage": 3.0,
+    "representative_quotes": [
+      "Paragens com o erro Asym.currL1.",
+      "Paragens com o erro Asym.voltL3: V,Others:V.",
+      "Intervenção devido a inúmeras paragens com o erro asymetric current"
+    ]
+  },
+  {
+    "failure_mode_title": "Insulation monitoring and earth fault trips",
+    "failure_mode_description": "Insulation monitor trips and earth fault detections on the LV side stop the converter until insulation issues are cleared.",
+    "log_count": 14,
+    "log_percentage": 2.0,
+    "representative_quotes": [
+      "Paragem com o erro FM1209 - MI class C (Service!) Fault e FM346 - LV InsulatMonitor 660V Stop",
+      "Paragem da TE com o erro 92.0 - Low voltage earth fault detection - Earth fault",
+      "FM346 - LV InsulatMonitor 660V Stop"
+    ]
+  },
+  {
+    "failure_mode_title": "Cooling air path blockage and filter saturation (preventive/condition issues)",
+    "failure_mode_description": "Clogged or degraded converter air filters and air path components reduce cooling effectiveness, contributing to thermal trips and derating.",
+    "log_count": 7,
+    "log_percentage": 1.0,
+    "representative_quotes": [
+      "Filtros do conversor saturados (DNV2023)",
+      "Filtros de ar do Conversor sujos e com suportes partidos - Wtg1 ARC",
+      "Filtros do conversor saturados (DNV2023)"
+    ]
+  }
+]
