@@ -4,7 +4,7 @@
 - **Finding 1**: There is a high degree of redundancy between the 'Description' and 'Observations' fields, with approximately 66% of observations merely repeating the description.
 - **Finding 2**: The log entries frequently lack specific, quantifiable details, relying on vague descriptions that are insufficient for in-depth analysis.
 - **Finding 3**: There is a lack of standardised terminology, leading to inconsistent data entry for similar types of events and failures.
-- **Finding 4**: The 'Observations' field is significantly underutilised, often containing redundant information or unhelpful placeholders.
+- **Finding 4**: The 'Observations' field is significantly underutilised, often containing redundant information or unhelpful placeholders. 
 
 ---
 
