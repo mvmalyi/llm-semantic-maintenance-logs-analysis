@@ -7,7 +7,7 @@
 - **Finding 5**: Mixed language and terminology (Portuguese + English terms; “Blade A”, “pá A”, “Axis 1”) leading to ambiguity.
 - **Finding 6**: Lack of quantitative detail (no measured values, units, limits) and missing root cause/outcome context.
 - **Finding 7**: Copy-pasted alarm texts without their meaning, clear action taken, resolution, or validation results.
-- **Finding 8**: Uncontrolled free-text for components/locations; abbreviations and acronyms used without definition.
+- **Finding 8**: Uncontrolled free-text for components/locations; abbreviations and acronyms used without definition. 
 
 #### Common Issues Identified
 - **Issue 1 - Redundant entries**: Observations often repeat the Description verbatim and append “para” with the identifier, adding noise and inflating storage without analytical value.
