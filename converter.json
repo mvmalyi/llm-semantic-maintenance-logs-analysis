@@ -10,7 +10,7 @@
       "Paragens com o erro Q8 breaker open.",
       "Q8 Close not possible"
     ]
-  },
+  }, 
   {
     "failure_mode_title": "Main Switch open (FM300) and mainswitch mechanism faults",
     "failure_mode_description": "The LV MainSwitch opens or fails to latch/close (often FM300) leading to converter de-energisation and repeated downtime, sometimes due to mechanical issues.",
