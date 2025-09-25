@@ -1,0 +1,372 @@
+
+[
+  {
+    "causal_chain_title": "Persistent rotor speed sensing faults leading to TCS power/interference fixes",
+    "sequence_of_events": [
+      {
+        "log_id": "607364",
+        "component": "Rotor Bearing System",
+        "summary": "Replaced rotor speed sensor"
+      },
+      {
+        "log_id": "607365",
+        "component": "Rotor Bearing System",
+        "summary": "Adjusted new rotor speed sensor"
+      },
+      {
+        "log_id": "607453",
+        "component": "Turbine Control System",
+        "summary": "Replaced FR1 in controller"
+      },
+      {
+        "log_id": "614464",
+        "component": "Turbine Control System",
+        "summary": "Replaced power supply in top box"
+      },
+      {
+        "log_id": "616121",
+        "component": "Rotor Bearing System",
+        "summary": "Replaced rotor speed sensor again"
+      },
+      {
+        "log_id": "616359",
+        "component": "Rotor Bearing System",
+        "summary": "Replaced cable of the rotor speed sensor"
+      },
+      {
+        "log_id": "622867",
+        "component": "Rotor Bearing System",
+        "summary": "Replaced cable of the rotor speed sensor"
+      },
+      {
+        "log_id": "622881",
+        "component": "Rotor Bearing System",
+        "summary": "Mechanical adjustment of rotor speed sensor"
+      },
+      {
+        "log_id": "724078",
+        "component": "Rotor Bearing System",
+        "summary": "Further tuning of rotor speed sensor"
+      }
+    ],
+    "hypothesis": "Intermittent or noisy rotor speed feedback due to damaged cabling or poor sensor alignment likely caused repeated faults; power quality or controller issues were addressed by replacing the top box PSU and FR1, while repeated cable replacements and mechanical adjustments ultimately targeted the true root cause in wiring and alignment.",
+    "confidence": "High"
+  },
+  {
+    "causal_chain_title": "Hydraulic oil leak leading to rotor brake pump deactivation and replacement",
+    "sequence_of_events": [
+      {
+        "log_id": "1019622",
+        "component": "Central Hydraulic System",
+        "summary": "Oil leak in hydraulic central piping"
+      },
+      {
+        "log_id": "1003405",
+        "component": "Brake System Drive Train ",
+        "summary": "Deactivated rotor brake pump"
+      },
+      {
+        "log_id": "1003406",
+        "component": "Brake System Drive Train ",
+        "summary": "Replaced rotor brake pump"
+      }
+    ],
+    "hypothesis": "Loss of hydraulic fluid and pressure from the central system leak degraded rotor brake pump performance, necessitating pump shutdown and subsequent replacement to restore braking capability.",
+    "confidence": "High"
+  },
+  {
+    "causal_chain_title": "Interbus communication degradation across fibre, module, and protection",
+    "sequence_of_events": [
+      {
+        "log_id": "739721",
+        "component": "Turbine Control System",
+        "summary": "FM700 error cleared by local reset"
+      },
+      {
+        "log_id": "739722",
+        "component": "Turbine Control System",
+        "summary": "Swapped Interbus fibre optic pairs"
+      },
+      {
+        "log_id": "817415",
+        "component": "Turbine Control System",
+        "summary": "Replaced Interbus module"
+      },
+      {
+        "log_id": "1098846",
+        "component": "Turbine Control System",
+        "summary": "Replaced Interbus module fuse in top box"
+      }
+    ],
+    "hypothesis": "Persistent Interbus network faults progressed from transient resets to physical layer interventions (fibre pair swap), then to hardware replacement and protection component (fuse) replacement, indicating underlying comms path degradation and/or intermittent power issues affecting the fieldbus.",
+    "confidence": "Medium-High"
+  },
+  {
+    "causal_chain_title": "Chronic rotor brake hydraulic issues culminating in repeated pump work",
+    "sequence_of_events": [
+      {
+        "log_id": "638576",
+        "component": "Brake System Drive Train ",
+        "summary": "Bypass implemented on rotor brake pump"
+      },
+      {
+        "log_id": "638577",
+        "component": "Brake System Drive Train ",
+        "summary": "Replaced rotor brake pump"
+      },
+      {
+        "log_id": "817148",
+        "component": "Brake System Drive Train ",
+        "summary": "Replaced pads in rotor brake pumps"
+      },
+      {
+        "log_id": "1003405",
+        "component": "Brake System Drive Train ",
+        "summary": "Deactivated rotor brake pump"
+      },
+      {
+        "log_id": "1003406",
+        "component": "Brake System Drive Train ",
+        "summary": "Replaced rotor brake pump"
+      }
+    ],
+    "hypothesis": "Contamination or wear in the hydraulic circuit likely drove recurrent pump and brake component degradation, first requiring bypass and replacement, later pad renewal, and again deactivation and replacement—consistent with a systemic hydraulic issue later compounded by the central hydraulic leak.",
+    "confidence": "Medium"
+  },
+  {
+    "causal_chain_title": "Blade 2 pitch control instability leading to inverter, PSU, and redundancy replacements",
+    "sequence_of_events": [
+      {
+        "log_id": "482008",
+        "component": "Rotor Blade No. 2",
+        "summary": "Local reset to pitch controller 2"
+      },
+      {
+        "log_id": "482044",
+        "component": "Rotor Blade No. 2",
+        "summary": "Error 1117 reset on pitch controller 2"
+      },
+      {
+        "log_id": "482071",
+        "component": "Rotor Blade No. 2",
+        "summary": "Error 1111 reset on pitch system 2"
+      },
+      {
+        "log_id": "482074",
+        "component": "Rotor Blade No. 2",
+        "summary": "Replaced pitch inverter on blade 2"
+      },
+      {
+        "log_id": "497411",
+        "component": "Rotor Blade No. 2",
+        "summary": "Replaced 24 V power supply of pitch system"
+      },
+      {
+        "log_id": "497439",
+        "component": "Rotor Blade No. 2",
+        "summary": "Replaced pitch redundancy for blade 2"
+      }
+    ],
+    "hypothesis": "Repeated controller errors indicate deteriorating pitch inverter and low-voltage supply performance on blade 2; replacing the inverter, 24 V PSU, and redundancy module addressed cascading control faults.",
+    "confidence": "High"
+  },
+  {
+    "causal_chain_title": "Blade 2 pitch mechanical degradation following early electrical instability",
+    "sequence_of_events": [
+      {
+        "log_id": "544555",
+        "component": "Rotor Blade No. 2",
+        "summary": "Replaced blade 2 bearing (B)"
+      },
+      {
+        "log_id": "575936",
+        "component": "Rotor Blade No. 2",
+        "summary": "Lubricated blade 2 bearing"
+      },
+      {
+        "log_id": "575937",
+        "component": "Rotor Blade No. 2",
+        "summary": "Replaced brake of blade 2 pitch motor"
+      },
+      {
+        "log_id": "575943",
+        "component": "Rotor Blade No. 2",
+        "summary": "Replaced pitch inverter on blade 2"
+      },
+      {
+        "log_id": "623057",
+        "component": "Rotor Blade No. 2",
+        "summary": "Replaced pitch brake on blade 2"
+      },
+      {
+        "log_id": "724023",
+        "component": "Rotor Blade No. 2",
+        "summary": "Replaced pitch brake on blade 2"
+      }
+    ],
+    "hypothesis": "Earlier pitch drive control faults likely caused abnormal torque cycling and thermal stress, accelerating wear of the blade 2 pitch bearing and brake, leading to repeated lubrication and brake replacements alongside another inverter swap.",
+    "confidence": "Medium"
+  },
+  {
+    "causal_chain_title": "Cross-blade pinion bolt and pinion failures indicating systemic overload or torque issues",
+    "sequence_of_events": [
+      {
+        "log_id": "801628",
+        "component": "Rotor Blade No. 2",
+        "summary": "Detected three broken bolts on blade 2"
+      },
+      {
+        "log_id": "902982",
+        "component": "Rotor Blade No. 3",
+        "summary": "Replaced attack pinion on blade 3"
+      },
+      {
+        "log_id": "934380",
+        "component": "Rotor Blade No. 3",
+        "summary": "Replaced blade pinion bolts"
+      },
+      {
+        "log_id": "934536",
+        "component": "Rotor Blade No. 1",
+        "summary": "Replaced blade pinion bolts"
+      },
+      {
+        "log_id": "934535",
+        "component": "Rotor Blade No. 2",
+        "summary": "Replaced blade pinion bolts"
+      },
+      {
+        "log_id": "965493",
+        "component": "Rotor Blade No. 3",
+        "summary": "Detected broken pinion bolt on blade 3"
+      },
+      {
+        "log_id": "965494",
+        "component": "Rotor Blade No. 3",
+        "summary": "Replaced attack pinion on blade 3"
+      }
+    ],
+    "hypothesis": "Repeated fastener and pinion failures across multiple blades suggest excessive or shock loading in the pitch drivetrain, potentially from aggressive pitch torque profiles or miscalibration, prompting a cross-blade bolt replacement campaign yet recurring failures on blade 3.",
+    "confidence": "Medium"
+  },
+  {
+    "causal_chain_title": "Blade 2 post-repair control and mechanical follow-up leading to gearbox shaft tip replacement",
+    "sequence_of_events": [
+      {
+        "log_id": "934535",
+        "component": "Rotor Blade No. 2",
+        "summary": "Replaced blade 2 pinion bolts"
+      },
+      {
+        "log_id": "965495",
+        "component": "Rotor Blade No. 2",
+        "summary": "Adjusted pitch redundancy on blade 2 after drift"
+      },
+      {
+        "log_id": "965618",
+        "component": "Rotor Blade No. 2",
+        "summary": "Replaced contactor of pitch 2"
+      },
+      {
+        "log_id": "965619",
+        "component": "Rotor Blade No. 2",
+        "summary": "Checked pitch 2 motor backlash"
+      },
+      {
+        "log_id": "1114870",
+        "component": "Rotor Blade No. 2",
+        "summary": "Replaced screw on pitch gearbox of blade 2"
+      },
+      {
+        "log_id": "1131160",
+        "component": "Rotor Blade No. 2",
+        "summary": "Replaced tip of pitch gearbox shaft 2"
+      }
+    ],
+    "hypothesis": "After mechanical work on pinion bolts, control redundancy required recalibration and electrical components showed degradation; continued mechanical stress ultimately propagated to the pitch gearbox output, necessitating screw replacement and later shaft tip replacement.",
+    "confidence": "Medium"
+  },
+  {
+    "causal_chain_title": "Generator speed feedback issue culminating in encoder and interface replacement",
+    "sequence_of_events": [
+      {
+        "log_id": "376199",
+        "component": "Generator 1",
+        "summary": "Replaced rotation monitor"
+      },
+      {
+        "log_id": "481462",
+        "component": "Converter System Generator 1",
+        "summary": "Replaced encoder interface board in converter"
+      },
+      {
+        "log_id": "481473",
+        "component": "Generator 1",
+        "summary": "Replaced generator encoder"
+      }
+    ],
+    "hypothesis": "Initial generator speed monitoring problems progressed to replacing both the encoder and its converter-side interface, indicating a degraded measurement chain rather than a single-point failure.",
+    "confidence": "Medium"
+  },
+  {
+    "causal_chain_title": "Yaw brake relay replacement followed by system tuning",
+    "sequence_of_events": [
+      {
+        "log_id": "770717",
+        "component": "Yaw Brake System",
+        "summary": "Replaced timed relay of yaw brakes"
+      },
+      {
+        "log_id": "786081",
+        "component": "Yaw Brake System",
+        "summary": "Tuned yaw brakes"
+      }
+    ],
+    "hypothesis": "Replacing the timing relay altered brake application timing and response, necessitating a follow-up tuning to restore correct yaw brake behaviour.",
+    "confidence": "High"
+  },
+  {
+    "causal_chain_title": "Yaw drive grease retention modifications preceding brake adjustments and sensor calibration",
+    "sequence_of_events": [
+      {
+        "log_id": "918491",
+        "component": "Yaw Drive System",
+        "summary": "Installed fibre kit on yaw system"
+      },
+      {
+        "log_id": "918375",
+        "component": "Yaw Drive System",
+        "summary": "Applied fibre kit to retain grease in yaw"
+      },
+      {
+        "log_id": "1003349",
+        "component": "Yaw Brake System",
+        "summary": "Adjusted brakes of yaw motors"
+      },
+      {
+        "log_id": "1082926",
+        "component": "Yaw Brake System",
+        "summary": "Adjusted microswitch sensor of yaw brakes"
+      }
+    ],
+    "hypothesis": "Grease retention modifications may have altered friction and drag characteristics in the yaw drive, later prompting brake setting adjustments and microswitch recalibration to maintain proper engagement and signalling.",
+    "confidence": "Low-Medium"
+  },
+  {
+    "causal_chain_title": "Gearbox bearing distress leading to full gearbox replacement",
+    "sequence_of_events": [
+      {
+        "log_id": "312320",
+        "component": "Gearbox",
+        "summary": "HSS bearing BPFI issue follow-up"
+      },
+      {
+        "log_id": "426354",
+        "component": "Gearbox",
+        "summary": "Gearbox replacement"
+      }
+    ],
+    "hypothesis": "Early indication of high-speed shaft bearing damage (BPFI) progressed to a decision to replace the gearbox within the year to prevent catastrophic failure.",
+    "confidence": "High"
+  }
+]

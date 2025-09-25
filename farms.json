@@ -1,0 +1,60 @@
+
+{
+  "[WF1]": {
+    "distinctive_patterns": [
+      {
+        "pattern": "GE converter ‘thread’-specific failures (repeated IGBT, fuse and MA contactor replacements across Thread 1–4).",
+        "hypothesis": "Manufacturer-specific CCU architecture (GE 2.5xl) shows ageing-related thermal/electrical stress under frequent line events; component modularity leads to many thread-targeted repairs.",
+        "supporting_quote": "Substituição do IGBT do Thread 1 - Fase B (linha) e fusíveis"
+      },
+      {
+        "pattern": "Axis-specific pitch system interventions (Axis 1/2/3): motors, brakes, batteries, chargers, EMT6 and ME203/CN modules.",
+        "hypothesis": "Older GE hub/pitch design with battery-centric actuation is sensitive to humidity ingress and ageing, driving recurrent replacements and tuning per axis.",
+        "supporting_quote": "Substituição do motor de pitch (Axis 1)"
+      },
+      {
+        "pattern": "Frequent anemometer icing and wind deviation state handling (de-icing and sensor swaps linked to status 180).",
+        "hypothesis": "Local ridge/fog microclimate near Lousã causes rime icing and measurement bias, triggering Wind Deviation 180 and necessitating repeated de-icing/maintenance.",
+        "supporting_quote": "Descongelar gelo dos anemómetros"
+      }
+    ]
+  },
+  "[WF2]": {
+    "distinctive_patterns": [
+      {
+        "pattern": "Widespread tower integrity and safety fixtures issues (corrosion, illegible signage, and emergency lighting failures).",
+        "hypothesis": "Differences in tower coating/specification and internal fixture quality for this Nordex fleet, combined with the site’s humidity, drive accelerated corrosion and lighting/signage degradation.",
+        "supporting_quote": "Pontos de corrosão na base"
+      },
+      {
+        "pattern": "Systematic yaw drivetrain refurbishments (repeated gear replacements, brake relay swaps/adjustments, and noise complaints).",
+        "hypothesis": "Nordex N90 yaw gearing/brake design exhibits higher wear under local turbulence and frequent yawing demands; control tuning may increase actuation cycles and mechanical stress.",
+        "supporting_quote": "Substituir Yaw gears"
+      },
+      {
+        "pattern": "High volume of fire detection sensor/base replacements across the site.",
+        "hypothesis": "Sensitivity of installed detector model to dust/humidity in tower/top-box environments and age-related drift causing false alarms and proactive replacements.",
+        "supporting_quote": "Substituir Sensor de incêndio"
+      }
+    ]
+  },
+  "[WF3]": {
+    "distinctive_patterns": [
+      {
+        "pattern": "Recurring yaw brake/drive faults with FM400-family and related errors (Yaw MotBrake not closed/open, HydBrk not closed) and frequent caliper/pad work.",
+        "hypothesis": "Complex terrain and directional shear in the given location increase yaw misalignment (YP50) events and braking duty, accelerating wear and hydraulic issues—especially in colder conditions.",
+        "supporting_quote": "Sucessivas ocorrências do erro FM400 - Wind DirSlanting Stop(due YP50)"
+      },
+      {
+        "pattern": "MV cell component degradation (DST phase indicators, insulation boots, voltage signal lights, SF6 gauge glass).",
+        "hypothesis": "Stronger temperature swings and moisture ingress at this site lead to dielectric/mechanical fatigue of MV cell components and indicators.",
+        "supporting_quote": "DST fase L2 danificado"
+      },
+      {
+        "pattern": "Converter MI-class fault prevalence with frequent cooling system interventions (FM1201/1208/1209 and coolant/radiator work).",
+        "hypothesis": "Converter thermal management stress from ambient/dust loads and ageing of the Nordex power electronics at WF3 drive MI ‘class’ trips and repeated coolant top-ups/cleaning.",
+        "supporting_quote": "Sucessivas ocorrências do erro FM1201 - MI class A Fault"
+      }
+    ]
+  }
+}
