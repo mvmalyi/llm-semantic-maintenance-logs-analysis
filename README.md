@@ -1,6 +1,6 @@
 # Semantic Reliability Analysis of Wind Turbine Maintenance Logs using Large Language Models
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![DOI](https://img.shields.io/badge/DOI-TBC-b31b1b.svg)](https://arxiv.org/abs/your-arxiv-id)  [![arXiv](https://img.shields.io/badge/arXiv-TBC-b31b1b.svg)](https://arxiv.org/abs/your-arxiv-id)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![DOI](https://zenodo.org/badge/1064032049.svg)](https://doi.org/10.5281/zenodo.17209085)  [![arXiv](https://img.shields.io/badge/arXiv-TBC-b31b1b.svg)](https://arxiv.org/abs/your-arxiv-id)
  
  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mvmalyi/) [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0000-0002-1503-9798) [![ResearchGate](https://img.shields.io/badge/ResearchGate-00CCBB?logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Max-Malyi) [![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=FgcRBeUAAAAJ)
