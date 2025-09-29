@@ -1,4 +1,4 @@
-# Semantic Reliability Analysis of Wind Turbine Maintenance Logs using Large Language Models
+# Exploratory Semantic Reliability Analysis of Wind Turbine Maintenance Logs using Large Language Models
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![DOI](https://zenodo.org/badge/1064032049.svg)](https://doi.org/10.5281/zenodo.17209085)  [![arXiv](https://img.shields.io/badge/arXiv-2509.22366-b31b1b.svg)](https://arxiv.org/abs/2509.22366)
  
