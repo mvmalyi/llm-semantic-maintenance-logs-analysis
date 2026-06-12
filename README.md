@@ -1,6 +1,6 @@
 # Exploratory Semantic Reliability Analysis of Wind Turbine Maintenance Logs using Large Language Models
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![DOI](https://zenodo.org/badge/1064032049.svg)](https://doi.org/10.5281/zenodo.17209085)  [![arXiv](https://img.shields.io/badge/arXiv-2509.22366-b31b1b.svg)](https://arxiv.org/abs/2509.22366)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![arXiv](https://img.shields.io/badge/arXiv-2509.22366-b31b1b.svg)](https://arxiv.org/abs/2509.22366) [![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17209086.svg)](https://doi.org/10.5281/zenodo.17209086) 
  
  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mvmalyi/) [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0000-0002-1503-9798) [![ResearchGate](https://img.shields.io/badge/ResearchGate-00CCBB?logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Max-Malyi) [![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=FgcRBeUAAAAJ)
@@ -8,7 +8,7 @@
 An open-source, reproducible framework demonstrating how Large Language Models (LLMs) can be used for complex semantic analysis of unstructured wind turbine maintenance logs. This project moves beyond simple classification to generate deeper reliability insights, such as identifying failure modes, inferring causal chains, and uncovering site-specific operational patterns to enhance data-driven O&M in the wind energy sector. 
 
 This repository contains the full workflow as supplementary materials for the paper:
-> Malyi, M., Shek, J., Biscaya, A., (2025). *Semantic Reliability Analysis of Wind Turbine Maintenance Logs using Large Language Models*. (To be published).
+> Malyi, M., Shek, J., Biscaya, A., (2025). *Semantic Reliability Analysis of Wind Turbine Maintenance Logs using Large Language Models*. Preprint, arXiv:2509.22366
 
 
 ## About The Project
